@@ -1,0 +1,22 @@
+.order {
+  padding: 40px;
+  margin: 20px;
+  border: 1px solid lightgrey;
+  background-color: white;
+  position: relative;
+}
+
+.order > p {
+  margin-bottom: 10px;
+}
+
+.order__id {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+}
+
+.order__total {
+  text-align: right;
+  font-weight: 500;
+}
